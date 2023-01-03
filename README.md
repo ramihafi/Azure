@@ -6,11 +6,11 @@
 </p>
 
 ### Overview
-Please review [Set up Active/Passive HA on Microsoft Azure](https://docs.paloaltonetworks.com/vm-series/9-0/vm-series-deployment/set-up-the-vm-series-firewall-on-azure/configure-activepassive-ha-for-vm-series-firewall-on-azure.html) before proceeding.  
+Please review [Set up Active/Passive HA on Microsoft Azure](https://docs.paloaltonetworks.com/vm-series/10-2/vm-series-deployment/set-up-the-vm-series-firewall-on-azure/configure-activepassive-ha-for-vm-series-firewall-on-azure) before proceeding.  
 
 This template deploys the following into a new or existing VNET with 4 subnets:
 * 2 x VM-Series firewalls
-    * 3 x Interfaces
+    * 4 x Interfaces
         * management: `<fw_name>-nic0`
         * dataplane1: `<fw_name>-nic1` (contains 2nd IP that floats between active & passive firewalls)
         * dataplane2: `<fw_name>-nic2` (contains 2nd IP that floats between active & passive firewalls)
@@ -25,7 +25,7 @@ This template deploys the following into a new or existing VNET with 4 subnets:
 * 2 x Network Security Groups
     *  management: `<nsg_name>-mgmt`
     *  dataplane: `<nsg_name>-data`
-* 1 x Availability Set
+
 
 ### Important Considerations
 
