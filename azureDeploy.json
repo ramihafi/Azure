@@ -207,7 +207,7 @@
             "allowedValues": [
                 "byol",
                 "bundle1",
-                 "bundle2",
+                "bundle2",
                 "bundle2-for-ms"
             ],
             "metadata": {
