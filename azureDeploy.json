@@ -223,7 +223,7 @@
                 "9.0.6",
                 "9.0.4",
                 "9.0.1",
-                "10.1.7",
+                "10.1.7"
             ],
             "metadata": {
                 "description": "Select the PAN-OS version to deploy.  Selecting 'Latest' deploys the latest available image on the Azure Marketplace."
