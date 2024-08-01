@@ -241,7 +241,7 @@
                 "Standard_DS3_v2",
                 "Standard_DS4_v2",
                 "Standard_DS5_v2",
-                "Standard_DS3_v2"
+                "Standard_DS3_v2",
             ],
             "metadata": {
                 "description": "Select a VM size for the firewalls."
